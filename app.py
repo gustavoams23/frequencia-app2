@@ -18,6 +18,8 @@ total = st.number_input(f"Digite o total de aulas dadas em {disciplina}:", min_v
 # Entrada do número de faltas
 faltas = st.number_input("Digite o número de faltas do aluno:", min_value=0)
 
+
+
 # Calcular frequência
 if st.button("Calcular frequência"):
     presencas = total - faltas
